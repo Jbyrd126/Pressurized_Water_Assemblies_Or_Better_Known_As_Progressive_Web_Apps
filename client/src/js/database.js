@@ -2,16 +2,16 @@ import { openDB } from "idb";
 
 const initdb = async () =>
   // Creates a new database named 'kitties' which will be using version 1 of the database.
-  openDB("kitties", 1, {
+  openDB("pwa", 1, {
     // Adds database schema if it has not already been initialized.
     upgrade(db) {
-      if (db.objectStoreNames.contains("kitties")) {
-        console.log("Database for K.I.T.T.I.E.S. already exists");
+      if (db.objectStoreNames.contains("pwa")) {
+        console.log("Database for P.W.A already exists");
         return;
       }
       // Creates a new object store for the data and gives it a key name of 'id' which increments automatically.
-      db.createObjectStore("kitties", { keyPath: "id", autoIncrement: true });
-      console.log("Database for K.I.T.T.I.E.S. has been created");
+      db.createObjectStore("pwa", { keyPath: "id", autoIncrement: true });
+      console.log("Database for P.W.A. has been created");
     },
   });
 
@@ -19,17 +19,17 @@ const initdb = async () =>
 export const putDb = async (content) => {
   console.log("Post to the database");
 
-  // Creates a connection to the kitties database and version.
-  const kittiesDb = await openDB("kitties", 1);
+  // Creates a connection to the pwa database and version.
+  const pwaDb = await openDB("pwa", 1);
 
   // Creates a new transaction and specifies the database and data privileges.
-  const tx = kittiesDb.transaction("kitties", "readwrite");
+  const tx = pwaDb.transaction("pwa", "readwrite");
 
   // Opens up the desired object store.
-  const store = tx.objectStore("kitties");
+  const store = tx.objectStore("pwa");
 
   // Uses the .put() method on the store and passes in the content.
-  const request = store.put({ id: 1, kitties: content });
+  const request = store.put({ id: 1, pwa: content });
 
   // Gets confirmation of the request.
   const result = await request;
@@ -40,14 +40,14 @@ export const putDb = async (content) => {
 export const getDb = async () => {
   console.log("Get all notes from the database");
 
-  // Creates a connection to the kitties database and version.
-  const kittiesDb = await openDB("kitties", 1);
+  // Creates a connection to the pwa database and version.
+  const pwaDb = await openDB("pwa", 1);
 
   // Creates a new transaction and specifies the database and data privileges.
-  const tx = kittiesDb.transaction("kitties", "readonly");
+  const tx = pwaDb.transaction("pwa", "readonly");
 
   // Opens up the desired object store.
-  const store = tx.objectStore("kitties");
+  const store = tx.objectStore("pwa");
 
   // Uses the .get(1) method to retrieve the value of the first record matching the query.
 
@@ -56,9 +56,9 @@ export const getDb = async () => {
   // Gets confirmation of the request.
   const result = await request;
   result
-    ? console.log("Notes retrieved from database:", result.kitties)
+    ? console.log("Notes retrieved from database:", result.pwa)
     : console.log("No notes found in database!");
-  return result?.kitties;
+  return result?.pwa;
 };
 
 // Starts database

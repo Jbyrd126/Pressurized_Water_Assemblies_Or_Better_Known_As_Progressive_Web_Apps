@@ -1,11 +1,11 @@
 {
-  "name": "pwa-kitties",
+  "name": "p.w.a",
   "scripts": {
     "dev": "webpack-dev-server",
     "build": "webpack --mode production",
     "start": "webpack --watchAll"
   },
-  "author": "Mary Elenius",
+  "author": "Rob Byrd",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.15.0",

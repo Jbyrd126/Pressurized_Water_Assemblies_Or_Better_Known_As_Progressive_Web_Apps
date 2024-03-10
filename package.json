@@ -12,7 +12,7 @@
     "client": "cd client && npm start"
   },
   "keywords": [],
-  "author": "Mary Elenius",
+  "author": "Rob Byrd",
   "license": "MIT",
   "repository": {
     "type": "git",

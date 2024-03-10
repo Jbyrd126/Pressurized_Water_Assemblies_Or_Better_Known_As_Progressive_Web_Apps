@@ -3,34 +3,28 @@
   <!-- Add badges using the following format: -->
   <!-- ![Name](urlToShieldHere)(urlToGithubHere) -->
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Contributors](https://img.shields.io/github/contributors/404pandas/pwa-kitties.svg?style=plastic&logo=appveyor)](https://github.com/404pandas/pwa-kitties/graphs/contributors)
-[![Forks](https://img.shields.io/github/forks/404pandas/pwa-kitties.svg?style=plastic&logo=appveyor)](https://github.com/404pandas/pwa-kitties/network/members)
-[![Stargazers](https://img.shields.io/github/stars/404pandas/pwa-kitties.svg?style=plastic&logo=appveyor)](https://github.com/404pandas/pwa-kitties/stargazers)
-[![Issues](https://img.shields.io/github/issues/404pandas/pwa-kitties.svg?style=plastic&logo=appveyor)](https://github.com/404pandas/pwa-kitties/issues)
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-black.svg?style=plastic&logo=appveyor&logo=linkedin&colorB=555)](https://linkedin.com/in/LinkedInUsername)
 
 </div>
 
 <!-- PROJECT LOGO -->
 
 <div align="center">
-  <a href="https://github.com/404pandas/pwa-kitties">
+  <a href="https://github.com/Jbyrd126/Pressurized_Water_Assemblies_Or_Better_Known_As_Progressive_Web_Apps">
     <img src="./client/src/images/logoNew.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">K.I.T.T.I.E.S.</h3>
+<h3 align="center">P.W.A</h3>
 
   <p align="center">
-    Kitten Impregnable Thoughts Text In-Line Editing Software <br />
-    <a href="https://github.com/404pandas/pwa-kitties"><strong>Explore the docs »</strong></a>
+    Pressurized Water Assemblies Text In-Line Editing Software <br />
+    <a href="https://github.com/Jbyrd126/Pressurized_Water_Assemblies_Or_Better_Known_As_Progressive_Web_Apps"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://pwa-kitties.onrender.com/">View App</a>
     ·
-    <a href="https://github.com/404pandas/pwa-kitties/issues">Report Bug</a>
+    <a href="https://github.com/Jbyrd126/Pressurized_Water_Assemblies_Or_Better_Known_As_Progressive_Web_Apps/issues">Report Bug</a>
     ·
-    <a href="https://github.com/404pandas/pwa-kitties/issues">Request Feature</a>
+    <a href="https://github.com/Jbyrd126/Pressurized_Water_Assemblies_Or_Better_Known_As_Progressive_Web_Apps/issues">Request Feature</a>
   </p>
 </div>
 
@@ -66,7 +60,7 @@
 <!-- Add screenshots using the following format: -->
 <!-- ![Screenshot alt description](directPathOfScreenshots) -->
 
-This project was built using Webpack, Babel, and CodeMirror to create a progressive web app text editor themed around cats
+This project was built using Webpack, Babel, and CodeMirror to create a progressive web app text editor with a theme based on an abbreviation of Progressive Web Applications.
 
 ### Built With
 
@@ -97,7 +91,7 @@ If you would like to run the app locally, follow the below installation instruct
 ### Installation
 
 1. Clone the repo
-   git clone https://github.com/404pandas/pwa-kitties.git
+   git clone https://github.com/Jbyrd126/Pressurized_Water_Assemblies_Or_Better_Known_As_Progressive_Web_Apps.git
 
 <!-- USAGE EXAMPLES -->
 
@@ -133,7 +127,7 @@ Follow the prompts to complete the installation to operate this app offline!
 
 - [ ] Add front end
 
-See the [open issues](https://github.com/404pandas/pwa-kitties/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/Jbyrd126/Pressurized_Water_Assemblies_Or_Better_Known_As_Progressive_Web_Appss/issues) for a full list of proposed features (and known issues).
 
 <!-- CONTRIBUTING -->
 
@@ -162,9 +156,9 @@ See LICENSE.txt for more information.
 
 ## Contact
 
-Mary Elenius - mary.panda.jackson@gmail.com
+Rob Byrd - jbyrd126@@gmail.com
 
-Repo Link: [https://github.com/404pandas/pwa-kitties](https://github.com/404pandas/pwa-kitties)
+Repo Link: [https://github.com/Jbyrd126/Pressurized_Water_Assemblies_Or_Better_Known_As_Progressive_Web_Apps](https://github.com/Jbyrd126/Pressurized_Water_Assemblies_Or_Better_Known_As_Progressive_Web_Apps)
 Live Link: [https://pwa-kitties.onrender.com/](https://pwa-kitties.onrender.com/)
 
 <!-- ACKNOWLEDGMENTS -->
