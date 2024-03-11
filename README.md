@@ -165,4 +165,3 @@ Live Link: [https://pressurized-water-assemblies-or-better.onrender.com/](https:
 
 ## Acknowledgments
 
-I would like to give a big shoutout to my partner in crime and daughter, Yennefer! Every day she proves she is small yet mighty!
