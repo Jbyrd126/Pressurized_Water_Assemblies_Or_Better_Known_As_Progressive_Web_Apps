@@ -84,7 +84,7 @@ This project was built using Webpack, Babel, and CodeMirror to create a progress
 ## Getting Started
 
 This app is fully functional and live at:
-https://pwa-kitties.onrender.com/
+https://pressurized-water-assemblies-or-better.onrender.com/
 
 If you would like to run the app locally, follow the below installation instructions
 
@@ -159,7 +159,7 @@ See LICENSE.txt for more information.
 Rob Byrd - jbyrd126@@gmail.com
 
 Repo Link: [https://github.com/Jbyrd126/Pressurized_Water_Assemblies_Or_Better_Known_As_Progressive_Web_Apps](https://github.com/Jbyrd126/Pressurized_Water_Assemblies_Or_Better_Known_As_Progressive_Web_Apps)
-Live Link: [https://pwa-kitties.onrender.com/](https://pwa-kitties.onrender.com/)
+Live Link: [https://pressurized-water-assemblies-or-better.onrender.com/](https://pressurized-water-assemblies-or-better.onrender.com)
 
 <!-- ACKNOWLEDGMENTS -->
 
